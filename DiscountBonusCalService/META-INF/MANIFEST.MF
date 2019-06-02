@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DiscountBonusCalService
+Bundle-SymbolicName: DiscountBonusCalService
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: discountbonuscalservice.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-10
+Import-Package: org.osgi.framework;version="1.3.0"
+Automatic-Module-Name: DiscountBonusCalService
+Export-Package: com.sliit.sa.implementations,
+ com.sliit.sa.interfaces,
+ discountbonuscalservice
